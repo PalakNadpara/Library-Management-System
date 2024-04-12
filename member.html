@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Book Issue</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Charusat Library</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div id="message"></div>
+
+
+    <div class="container my-3">
+        <h1>Add Member</h1>
+        <hr>
+        <form id="libraryForm" action="member.php" method="post">
+            <div class="form-group row">
+                <label for="recipientName" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" class="form-control" id="recipientName" placeholder="Recipient Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="dob" class="col-sm-2 col-form-label">Date of Birth</label>
+                <div class="col-sm-10">
+                    <input type="date" name="date" class="form-control" id="dob" placeholder="dob">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="clg" class="col-sm-2 col-form-label">Collage Name</label>
+                <div class="col-sm-10">
+                    <input type="text" name="clg" class="form-control" id="clg" placeholder="Collage Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="dep" class="col-sm-2 col-form-label">Department Name</label>
+                <div class="col-sm-10">
+                    <input type="text" name="dep" class="form-control" id="dep" placeholder="Department Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="clgid" class="col-sm-2 col-form-label">Collage ID</label>
+                <div class="col-sm-10">
+                    <input type="text" name="cid" class="form-control" id="clgid" placeholder="Collage ID">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="mail" class="col-sm-2 col-form-label">E-mail</label>
+                <div class="col-sm-10">
+                    <input type="text" name="email" class="form-control" id="mail" placeholder="E-mail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="mono" class="col-sm-2 col-form-label">Mobile No.</label>
+                <div class="col-sm-10">
+                    <input type="mobile_no" maxlength="10" name="mno" class="form-control" id="mono" placeholder="Mobile no.">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="add" class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-10">
+                    <input type="text" name="add" class="form-control" id="add" placeholder="Address">
+                </div>
+            </div>
+            
+
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        
+    </div>
+
+</body>
+
+</html>

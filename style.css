@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.register-todo{
+    position: absolute;
+    margin-left: 1490px ;
+    margin-top: 43px;
+    height: 35px;
+    width: 110px;
+    font-size: 17px;
+    border-radius: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main-home-container {
+    align-items: center;
+    margin: 0;
+    padding: 0  ;
+    width: 100%;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.main-set-up {
+    padding-top: 100px;
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    margin: 10px auto;
+    position: relative;
+    /* align-items: center; */
+}
+
+#heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.nav-bar {
+    margin: 10px auto;
+    /* border: 2px solid black; */
+
+}
+
+/* .nav-bar section-first {} */
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.nav-bar ul {
+    display: flex;
+    /* font-family: 'Baloo Bhai', cursive; */
+    /* padding: 0px 454px; */
+    padding-top: 60px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color: grey;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.issue-button ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.issue-button{
+    margin-top: 85px;
+}
+
+.issue-button ul{
+    list-style: none;
+}
+
+.issue-button ul li a:hover {
+    color: grey;
+    background-color: black;
+    border-radius: 8px;
+}
+
+
